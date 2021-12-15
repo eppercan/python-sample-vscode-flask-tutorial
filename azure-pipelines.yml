@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: ec2_test
 strategy:
   matrix:
     Python27:
