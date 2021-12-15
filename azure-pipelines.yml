@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: ec2_test
+pool: Default
 strategy:
   matrix:
     Python27:
